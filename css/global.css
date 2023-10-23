@@ -1,0 +1,51 @@
+:root{
+  font-size: 16px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html, body {
+  /* height: 100%; */
+}
+body{
+  margin: 0;
+  padding: 2.4rem;
+  color: rgb(232, 246, 235);
+  overflow: auto;
+  background: linear-gradient(225deg, rgba(95, 81, 44, 0.553), rgba(76, 6, 117, 0.503)) no-repeat;
+}
+main{
+  /* height: 100vh; */
+  min-height: 78%;
+}
+section{
+  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 1em;
+  background: rgba(139, 8, 191, 0.173);
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3  {
+  color: rgb(235, 228, 108);
+}
+
+@media screen and (max-width: 750px) {
+  body{
+    padding: 0.8rem;
+  }
+}

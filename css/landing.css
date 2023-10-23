@@ -1,0 +1,54 @@
+#landing{
+  min-height: 40%;
+  padding: 1em;
+  color: rgb(252, 252, 252);
+  flex: 0 0 0 310px;
+}
+
+#landing h3 {
+  margin: 1rem;
+  font-size: 1.5em;
+  text-align: center;
+}
+.avatar {
+  flex: 0 0 0 280px;
+}
+.avatar,
+.about p{
+  margin: 1rem;
+  font-size: 1.5em;
+}
+.avatar img{
+  min-width: 250px;
+  width: 80%;
+  border-radius: 50%;
+  margin: 2em;
+}
+.about{
+  /* align-items: center; */
+  justify-content: center;
+}
+.about p{
+  text-align: center;
+  color: antiquewhite;
+}
+
+.social{
+  justify-content: space-around;
+}
+.social svg {}
+
+@media screen and (min-width: 1042px) {
+  
+}
+
+@media screen and (min-width: 720px) {
+  
+}
+
+@media screen and (max-width: 750px) {
+  #landing{
+    flex-direction: column;
+    margin: 0;
+  }
+}
