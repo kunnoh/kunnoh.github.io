@@ -16,23 +16,23 @@ cloud engineer
     JavaScript
 
 #### Certification 
-next: CKAD
-CCNA 
-Mastery Cloud Application Developer
-Cloud Application Developer 
+    next: CKAD
+    CCNA
+    Mastery Cloud Application Developer
+    Cloud Application Developer 
 
 #### work history 
-Full stack developer 
-Humidorcode
+    Full stack developer
+    Humidorcode
 
-DevOps engineer 
-Abott 
+    DevOps engineer
+    Abott 
 
-GCP cloud engineer
-Pelephant 
+    GCP cloud engineer
+    Pelephant 
 
-Frontend engineer
-Sisitech
+    Frontend engineer
+    Sisitech
 
 
 #### School work
