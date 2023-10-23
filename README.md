@@ -8,22 +8,45 @@ cloud engineer
     Kubernetes
     Docker
     Ansible
-Terraform 
-Golang
-TypeScript
-JavaScript 
+    Terraform 
+    Jenkins
+    Git 
+    Golang
+    TypeScript
+    JavaScript
+
+#### Certification 
+next: CKAD
+CCNA 
+Mastery Cloud Application Developer
+Cloud Application Developer 
 
 #### work history 
 Full stack developer 
+Humidorcode
+
 DevOps engineer 
+Abott 
+
 GCP cloud engineer
+Pelephant 
+
+Frontend engineer
+Sisitech
+
 
 #### School work
-##### campus
-##### sec
+##### campus 
+Technical university of Kenya
+
+##### sec 
+Ikuu boys' high school
+
 ##### pri
+Mariamu primary school
 
-#### reference
 
-bbit
+#### reference 
+
+
 
