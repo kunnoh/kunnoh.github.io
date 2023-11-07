@@ -1,0 +1,17 @@
+.sound-wave{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    width: 60px;
+    height: 40px;
+}
+.sound-wave div{
+    height: 40px;
+    display: block;
+    width: 10px;
+    height: 6px;
+    border-radius: 8px;
+    background: orange;
+    animation: audio-wave 2.2s infinite ease-in-out;
+}
