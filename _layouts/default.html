@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    
+    <title>
+        {% if page.layout == "home" %}
+        {{ site.title }}
+        {% else %}
+        {{ site.title }} &middot; {{ page.title }}
+        {% endif %}
+    </title>
+
     <link rel="stylesheet" href="/assets/css/styles.css">
     <meta name="theme-color" content="#ffffff">
 
@@ -30,15 +38,15 @@
         {
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Your Name",
+            "name": "Alvin Dereba",
             "url": "https://kunnoh.github.io/",
-            "image": "https://kunnoh.github.io/images/logo.png",
-            "jobTitle": "Your Job Title",
-            "description": "Brief description about yourself",
+            "image": "https://kunnoh.github.io/images/kunnoh.jpg",
+            "jobTitle": "DevOps engineer",
+            "description": "More bout Alvin Dereba",
             "sameAs": [
                 "https://github.com/kunnoh",
-                "https://linkedin.com/in/yourprofile",
-                "https://twitter.com/yourhandle"
+                "https://linkedin.com/in/dereba-alvin",
+                "https://x.com/kunnoh3"
             ]
         }
     </script>
