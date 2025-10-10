@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -8,13 +7,22 @@ title: Home
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Your Name",
+            "url": "https://kunnoh.github.io/",
+            "image": "https://kunnoh.github.io/images/logo.png",
+            "jobTitle": "Your Job Title",
+            "description": "Brief description about yourself",
+            "sameAs": [
+                "https://github.com/kunnoh",
+                "https://linkedin.com/in/yourprofile",
+                "https://twitter.com/yourhandle"
+            ]
+        }
+    </script>
 </head>
-<body>
-    <header>
-        <h1>
-            <a href="#">Alvin</a>
-        </h1>
-    </header>
-    <p>Welcome!</p>
-</body>
+<body></body>
 </html>
