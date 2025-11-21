@@ -1,5 +1,24 @@
 permalink: /404.html
 title: "Alvin Dereba"
 description: "About Alvin Dereba"
+x_username: Kunnoh3
+github_username: Kunnoh
 domain: "https://kunnoh.github.io/"
 keywords: "Learn, Listen, Share, Write, Read"
+author:
+  name: "Alvin Dereba"
+  avatar: "/assets/images/kunnoh.jpg"
+  bio: ""
+  links:
+    - label: "GitHub"
+      icon: ""
+      url: ""
+    - label: "LinkedIn"
+      icon: ""
+      url: ""
+    - label: "X"
+      icon: ""
+      url: ""
+footer:
+  links:
+      
