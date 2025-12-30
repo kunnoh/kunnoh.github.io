@@ -1,3 +1,24 @@
 ---
 ---
 @import "main";
+
+footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 42px;
+    background-color: rgb(80, 80, 80);
+    color: rgb(220, 220, 220);
+}
+nav{
+    background-color: beige;
+    color: saddlebrown;
+    height: 48px;
+    display: flex;
+    padding: .5em .4em;
+    align-items: center;
+}
