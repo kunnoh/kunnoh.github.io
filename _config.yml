@@ -1,24 +1,17 @@
+baseurl: ""
+lang: en
+timezone: Africa/Nairobi
 permalink: /404.html
 title: "Alvin Dereba"
-description: "About Alvin Dereba"
+tagline: "System Administrator"
+description: "Linux system Administrator"
 x_username: Kunnoh3
 github_username: Kunnoh
-domain: "https://kunnoh.github.io/"
+url: "https://kunnoh.github.io/"
 keywords: "Learn, Listen, Share, Write, Read"
-author:
-  name: "Alvin Dereba"
-  avatar: "/assets/images/kunnoh.jpg"
-  bio: ""
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "LinkedIn"
-      icon: ""
-      url: ""
-    - label: "X"
-      icon: ""
-      url: ""
-footer:
-  links:
-      
+pwa:
+  enabled: true
+github:
+  username: kunnoh
+twitter:
+  username: Kunnoh3    
