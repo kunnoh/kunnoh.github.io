@@ -1,7 +1,15 @@
 ---
 ---
-@import "main";
+@use "../../_sass/main";
 
+nav{
+    background-color: beige;
+    color: saddlebrown;
+    height: 48px;
+    display: flex;
+    padding: .5em .4em;
+    align-items: center;
+}
 footer{
     position: fixed;
     display: flex;
@@ -13,12 +21,4 @@ footer{
     height: 42px;
     background-color: rgb(80, 80, 80);
     color: rgb(220, 220, 220);
-}
-nav{
-    background-color: beige;
-    color: saddlebrown;
-    height: 48px;
-    display: flex;
-    padding: .5em .4em;
-    align-items: center;
 }
