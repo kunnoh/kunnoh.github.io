@@ -1,7 +1,10 @@
 ---
 ---
 @use "../../_sass/main";
-
+*{
+    padding: 0;
+    margin: 0;
+}
 nav{
     background-color: beige;
     color: saddlebrown;
