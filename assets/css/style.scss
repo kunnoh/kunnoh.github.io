@@ -17,7 +17,7 @@ body {
   line-height: 1.6;
   color: #03e2ff;
   /* Layout */
-  min-height: 100vh;
+  min-height: 100%;
   
   /* Smooth scrolling */
   scroll-behavior: smooth;
@@ -44,7 +44,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 header{
     margin: 0;
     padding: 0;
@@ -54,10 +53,16 @@ nav{
     background-color: rgba(255, 255, 2, 0.177);
     color: saddlebrown;
     height: 48px;
-    display: flex;
     padding: .5em .4em;
     align-items: center;
     width: 100%;
+}
+nav a{
+    text-decoration: none;
+    color: #4affab;
+}
+nav ul li{
+    padding: 1em;
 }
 main{
     padding: 1em;
