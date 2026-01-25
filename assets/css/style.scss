@@ -1,13 +1,19 @@
 ---
 ---
 @use "../../_sass/main";
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 nav{
-    background-color: beige;
+    background-color: rgba(255, 255, 2, 0.177);
     color: saddlebrown;
     height: 48px;
     display: flex;
     padding: .5em .4em;
     align-items: center;
+    width: 100%;
 }
 main{
     padding: 1em;
@@ -21,6 +27,6 @@ footer{
     left: 0;
     right: 0;
     height: 42px;
-    background-color: rgb(80, 80, 80);
+    background-color: rgba(255, 255, 2, 0.177);
     color: rgb(220, 220, 220);
 }

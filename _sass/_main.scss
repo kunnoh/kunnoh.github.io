@@ -31,5 +31,42 @@ body {
     color: aqua;
   }
 }
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
 
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav{
+    background-color: rgba(255, 255, 2, 0.177);
+    color: saddlebrown;
+    height: 48px;
+    display: flex;
+    padding: .5em .4em;
+    align-items: center;
+    width: 100%;
+}
+main{
+    padding: 1em;
+}
+footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 42px;
+    background-color: rgba(255, 255, 2, 0.177);
+    color: rgb(220, 220, 220);
+}
 
