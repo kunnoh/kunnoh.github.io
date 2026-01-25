@@ -1,5 +1,5 @@
 ---
-#main scss
+# main css
 ---
 @use "main";
 
@@ -57,7 +57,7 @@ nav{
 }
 header nav ul li a{
     text-decoration: none;
-    color: #4affab;
+    color: purple;
 }
 header nav ul li{
     padding: .5em .4em;
