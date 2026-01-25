@@ -64,6 +64,7 @@ header nav ul li{
 }
 main{
   padding: 1em;
+  min-height: 100%;
 }
 footer{
   position: fixed;
