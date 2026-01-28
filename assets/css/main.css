@@ -46,7 +46,6 @@ body {
 }
 header{
   margin: 0;
-  padding: 0;
   width: 100%;
 }
 nav{
@@ -54,6 +53,7 @@ nav{
   height: 48px;
   align-items: center;
   width: 100%;
+  padding: 0 1.5em;
 }
 header nav ul li{
   padding: .5em .4em;
@@ -77,4 +77,10 @@ footer{
   right: 0;
   height: 42px;
   background-color: rgba(255, 255, 2, 0.177);
+}
+
+.summary{
+  background-color: #c3ff001f;
+  padding: 0.8em;
+  border-radius: 1em;
 }
