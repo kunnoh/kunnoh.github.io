@@ -66,21 +66,43 @@ header nav ul li a{
 main{
   padding: 1em;
   min-height: 100%;
+  margin-bottom: ;
 }
 footer{
   position: fixed;
   display: flex;
-  justify-content: center;
+  padding: 0 1.8em;
+  justify-content: flex-start;
   align-items: center;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 42px;
-  background-color: rgba(255, 255, 2, 0.177);
+  height: 2.8em;
 }
 
 .summary{
   background-color: #c3ff001f;
-  padding: 0.8em;
+  padding: 1.8em;
   border-radius: 1em;
+}
+.intro{
+  min-height: 20em;
+  align-items: center;
+}
+.container{
+  padding: 1em;
+  border-radius: 1em;
+  padding: 1.8em;
+  width: 25em;
+  background-color: #4e4e806c;
+}
+.projects{
+  padding: 1.8em;
+  gap: 1em;
+}
+.project{
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
