@@ -1,6 +1,6 @@
 <header class="row">
   <nav class="row">
-    <ul class="col">
+    <ul class="row">
       {% for item in site.data.nav %}
         <li>
           <a href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>

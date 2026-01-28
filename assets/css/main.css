@@ -32,8 +32,8 @@ body {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #7b7b9a;
-    background: linear-gradient(98deg, rgb(98, 98, 107) 0%, rgb(59, 59, 76) 34%, rgb(177, 213, 219) 100%);
-    color: aqua;
+    background: linear-gradient(98deg, rgb(66, 66, 104) 0%, rgb(59, 59, 76) 34%, rgb(0, 0, 0) 100%);
+    color: whitesmoke;
   }
 }
 .row{
@@ -55,12 +55,13 @@ nav{
   align-items: center;
   width: 100%;
 }
-header nav ul li a{
-  text-decoration: none;
-  color: #00ff88;
-}
 header nav ul li{
   padding: .5em .4em;
+  list-style: none;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #8effca;
 }
 main{
   padding: 1em;
