@@ -1,116 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alvin Dereba Njoka - Portfolio</title>
-</head>
-<body>
-    <header>
-        <nav class="row">
-            <ul class="row">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+---
+layout: home
+title: Alvin Dereba Njoka
+---
+<main class="col">
+    <div class="col intro">
+        <h1>Hi, Welcome to My Portfolio</h1>
+        <p class="lead">I am a <strong>DevOps Engineer</strong> specializing in cloud-native solutions</p>
+    </div>
 
-    <main>
-        <div class="col intro">
-            <h1>Hi, Welcome to My Portfolio</h1>
-            <p class="lead">I am a <strong>DevOps Engineer</strong> specializing in cloud-native solutions</p>
+    <div class="summary">
+        <h2>About Me</h2>
+        <p>Results-driven Linux System Administrator and DevOps Engineer with 5+ years of hands-on experience in designing, deploying, and managing cloud-native infrastructures across AWS, Azure, and GCP. Expertise in containerization, IaC, CI/CD pipelines, and observability.</p>
+        
+        <p>Proven track record of architecting microservices platforms, automating deployments, and ensuring high availability and security for mission-critical applications. Passionate about optimizing performance, security and adopting emerging cloud-native technologies.</p>
+        
+        <div class="social-links row">
+            <a href="mailto:your-email@gmail.com" target="_blank" rel="noopener" title="Gmail">
+                <span class="social-icon">📧</span>
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener" title="Github">
+                <span class="social-icon">💻</span>
+            </a>
+            <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener" title="WhatsApp">
+                <span class="social-icon">💬</span>
+            </a>
+            <a href="https://upwork.com/freelancers/yourprofile" target="_blank" rel="noopener" title="Upwork">
+                <span class="social-icon">💼</span>
+            </a>
+            <a href="https://fiverr.com/yourprofile" target="_blank" rel="noopener" title="Fiverr">
+                <span class="social-icon">🎯</span>
+            </a>
+            <a href="https://x.com/yourusername" target="_blank" rel="noopener" title="X (Twitter)">
+                <span class="social-icon">🐦</span>
+            </a>
         </div>
+    </div>
 
-        <div class="summary">
-            <h2>About Me</h2>
-            <p>Results-driven Linux System Administrator and DevOps Engineer with 5+ years of hands-on experience in designing, deploying, and managing cloud-native infrastructures across AWS, Azure, and GCP. Expertise in containerization, IaC, CI/CD pipelines, and observability.</p>
-            
-            <p>Proven track record of architecting microservices platforms, automating deployments, and ensuring high availability and security for mission-critical applications. Passionate about optimizing performance, security and adopting emerging cloud-native technologies.</p>
-            
-            <div class="social-links row">
-                <a href="mailto:your-email@gmail.com" target="_blank" rel="noopener" title="Gmail">
-                    <span class="social-icon">📧</span>
-                </a>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener" title="Github">
-                    <span class="social-icon">💻</span>
-                </a>
-                <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener" title="WhatsApp">
-                    <span class="social-icon">💬</span>
-                </a>
-                <a href="https://upwork.com/freelancers/yourprofile" target="_blank" rel="noopener" title="Upwork">
-                    <span class="social-icon">💼</span>
-                </a>
-                <a href="https://fiverr.com/yourprofile" target="_blank" rel="noopener" title="Fiverr">
-                    <span class="social-icon">🎯</span>
-                </a>
-                <a href="https://x.com/yourusername" target="_blank" rel="noopener" title="X (Twitter)">
-                    <span class="social-icon">🐦</span>
-                </a>
+    <div class="col projects" id="projects">
+        <h2>Featured Projects</h2>
+        <p>Collection of my recent work and experiments</p>
+        
+        <div class="row project">
+            <div class="col container project-card">
+                <h3>Garinest</h3>
+                <p>Cloud infrastructure automation using Terraform and Kubernetes for scalable microservices deployment.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">AWS</span>
+                    <span class="tech-tag">Terraform</span>
+                    <span class="tech-tag">K8s</span>
+                </div>
             </div>
-        </div>
-
-        <div class="col projects">
-            <h2>Featured Projects</h2>
-            <p>Collection of my recent work and experiments</p>
             
-            <div class="row project">
-                <div class="col container project-card">
-                    <h3>Garinest</h3>
-                    <p>Cloud infrastructure automation using Terraform and Kubernetes for scalable microservices deployment.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">AWS</span>
-                        <span class="tech-tag">Terraform</span>
-                        <span class="tech-tag">K8s</span>
-                    </div>
+            <div class="col container project-card">
+                <h3>Mbakapower</h3>
+                <p>CI/CD pipeline implementation with Jenkins, Docker, and GitOps workflows for automated deployments.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Jenkins</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">ArgoCD</span>
                 </div>
-                
-                <div class="col container project-card">
-                    <h3>Mbakapower</h3>
-                    <p>CI/CD pipeline implementation with Jenkins, Docker, and GitOps workflows for automated deployments.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Jenkins</span>
-                        <span class="tech-tag">Docker</span>
-                        <span class="tech-tag">ArgoCD</span>
-                    </div>
+            </div>
+            
+            <div class="col container project-card">
+                <h3>Spectabill</h3>
+                <p>Monitoring and observability platform using Prometheus, Grafana, and ELK stack for real-time insights.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Prometheus</span>
+                    <span class="tech-tag">Grafana</span>
+                    <span class="tech-tag">ELK</span>
                 </div>
-                
-                <div class="col container project-card">
-                    <h3>Spectabill</h3>
-                    <p>Monitoring and observability platform using Prometheus, Grafana, and ELK stack for real-time insights.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Prometheus</span>
-                        <span class="tech-tag">Grafana</span>
-                        <span class="tech-tag">ELK</span>
-                    </div>
+            </div>
+            
+            <div class="col container project-card">
+                <h3>ModusOperandi</h3>
+                <p>Multi-cloud infrastructure management with automated backup, disaster recovery, and cost optimization.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Azure</span>
+                    <span class="tech-tag">GCP</span>
+                    <span class="tech-tag">Ansible</span>
                 </div>
-                
-                <div class="col container project-card">
-                    <h3>ModusOperandi</h3>
-                    <p>Multi-cloud infrastructure management with automated backup, disaster recovery, and cost optimization.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Azure</span>
-                        <span class="tech-tag">GCP</span>
-                        <span class="tech-tag">Ansible</span>
-                    </div>
-                </div>
-                
-                <div class="col container project-card">
-                    <h3>Humidorcode</h3>
-                    <p>Containerized application platform with service mesh integration and automated security scanning.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Istio</span>
-                        <span class="tech-tag">Trivy</span>
-                        <span class="tech-tag">Helm</span>
-                    </div>
+            </div>
+            
+            <div class="col container project-card">
+                <h3>Humidorcode</h3>
+                <p>Containerized application platform with service mesh integration and automated security scanning.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Istio</span>
+                    <span class="tech-tag">Trivy</span>
+                    <span class="tech-tag">Helm</span>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 
-    <footer class="row">
-        <p>© 2026 Alvin Dereba Njoka. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <div class="row contact" id="contact">
+        <h2>Contact me</h2>
+        <form action="">
+
+        </form>
+    </div>
+</main>
