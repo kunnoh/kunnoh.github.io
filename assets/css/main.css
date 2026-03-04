@@ -53,6 +53,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: Poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
     background-color: var(--color-bg-primary);
     background: linear-gradient(98deg, 
