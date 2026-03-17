@@ -1,18 +1,20 @@
 ---
 layout: default
-title: Alvin - Blog
+title: Alvin - Blogs
 ---
 <main>
-    <div class="row">
-        <h3>My blogs</h3>
-        <ul>
-            {% for item in site.posts %}
-                <li>
-                    <a href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
-                        {{ item.name }}
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
+    <div class="col">
+        <h3>Posts</h3>
+        <div class="col">
+            <ul class="posts col">
+                {% for item in site.posts %}
+                    <li class="col">
+                        <a href="/post/{{ item.name }}" {% if page.url == item.name %} {% endif %}>
+                            {{ item.title }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 </main>

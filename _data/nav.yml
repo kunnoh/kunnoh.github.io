@@ -1,4 +1,6 @@
 - name: Alvin
   link: /
+- name: Projects
+  link: /#projects
 - name: Blog
   link: /blog.html
